@@ -1,0 +1,19 @@
+html {
+  font-weight: 15px;
+}
+
+:root {
+  --primary-clr: hsl(220, 15%, 55%);
+  --secondary-clr-light: hsl(212, 45%, 89%);
+  --secondary-clr-dark: hsl(218, 44%, 22%);
+  
+  --fw-m: 400;
+  --fw-b: 700;
+  
+  --ff: "Outfit", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--ff);
+}
