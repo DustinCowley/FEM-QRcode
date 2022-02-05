@@ -16,4 +16,10 @@ html {
 body {
   margin: 0;
   font-family: var(--ff);
+  background-color: var(--primary-clr);
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
 }
