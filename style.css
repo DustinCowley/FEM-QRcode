@@ -15,11 +15,11 @@ html {
 
 body {
   margin: 0;
+  min-height: 100vh;
   font-family: var(--ff);
   background-color: var(--secondary-clr-light);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -36,12 +36,15 @@ p {
 }
 
 .container {
-    justify-content: center;
     width: 300px;
-    margin: 2em auto;
+    margin: 0 auto;
     padding: 1em;
     background-color: white;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-container {
@@ -52,4 +55,17 @@ p {
 .qr-img {
   width: 100%;
   border-radius: 10px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
