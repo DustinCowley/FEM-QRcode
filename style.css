@@ -20,6 +20,8 @@ body {
   background-color: var(--secondary-clr-light);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -37,18 +39,14 @@ p {
 
 .container {
     width: 300px;
-    margin: 0 auto;
     padding: 1em;
     background-color: white;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: auto;
+    box-shadow: 0 10px 12px 1px  hsl(220, 15%, 55%, .3);
 }
 
 .text-container {
-  margin: 0 auto;
   padding: 1.25em;
 }
 
