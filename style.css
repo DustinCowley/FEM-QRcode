@@ -67,3 +67,13 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* @media (min-width: 1000px ) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  .container {
+    width: 375px;
+  }
+} */
